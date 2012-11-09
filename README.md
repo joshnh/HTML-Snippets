@@ -2,16 +2,17 @@
 
 Type the snippet shortcode and then press <kbd>Tab</kbd> to complete the snippet.
 
-The snippets are listed below in alphabetical order. The '$0' indicates the
+The snippets are listed below in alphabetical order. The '$1' indicates the
 position of the caret/s. Some snippets have been set up so that pressing Tab
 jumps the caret/s to the next predefined spot. It's a little hard to explain,
 but any snippet that has a $1/$2/$3/etc. uses this technique.
 
 Feel free to play with, alter, expand, or ruin these snippets as you please. I
 only ask that if you come up with an incredibly handy snippet, or simply one that
-I have missed, that you let me know (via email, twitter, or on GitHub) so that I
+I have missed, that you let me know (via email, Twitter or GitHub) so that I
 can improve these for everybody. Thanks!
 
+---
 
 __html__
 
@@ -48,4 +49,4 @@ __nav__
                 <a href="#">$4</a>
             </li>
         </ul>
-    </nav>$5
+    </nav>

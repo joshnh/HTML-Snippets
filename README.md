@@ -1,5 +1,7 @@
 # Sublime Text 2 HTML Snippets
 
+_A work in progress._
+
 Type the snippet shortcode and then press <kbd>Tab</kbd> to complete the snippet.
 
 The snippets are listed below in alphabetical order. The '$1' indicates the

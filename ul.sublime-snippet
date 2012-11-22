@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<ul>
+    <li>$1</li>
+    <li>$2</li>
+    <li>$3</li>
+    <li>$4</li>
+</ul>$5]]></content>
+	<tabTrigger>ul</tabTrigger>
+    <description>HTML - Unordered list</description>
+	<scope>text.html</scope>
+</snippet>

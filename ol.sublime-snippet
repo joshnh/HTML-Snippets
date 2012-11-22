@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<ol>
+    <li>$1</li>
+    <li>$2</li>
+    <li>$3</li>
+    <li>$4</li>
+</ol>$5]]></content>
+	<tabTrigger>ol</tabTrigger>
+    <description>HTML - Ordered list</description>
+	<scope>text.html</scope>
+</snippet>

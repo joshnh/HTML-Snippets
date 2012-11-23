@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<link rel="stylesheet" href="$1">$2]]></content>
+	<tabTrigger>lin</tabTrigger>
+    <description>HTML - Link</description>
+	<scope>text.html</scope>
+</snippet>

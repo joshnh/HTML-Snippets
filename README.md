@@ -16,6 +16,10 @@ can improve these for everybody. Thanks!
 
 ---
 
+__a__
+
+    <a href="$1">$2</a>
+
 __com__
 
     <!-- $1 -->
@@ -37,6 +41,10 @@ __html__
             <script src="js/main.js"></script>
         </body>
     </html>
+
+__lin__
+
+    <link rel="stylesheet" href="$1">
 
 __nav__
 
@@ -78,6 +86,10 @@ __ol__
         <li>$3</li>
         <li>$4</li>
     </ol>
+
+__scr__
+
+    <script src="$1"></script>
 
 __ul__
 

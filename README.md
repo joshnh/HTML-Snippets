@@ -16,6 +16,10 @@ can improve these for everybody. Thanks!
 
 ---
 
+__com__
+
+    <!-- $1 -->
+
 __html__
 
     <!doctype html>

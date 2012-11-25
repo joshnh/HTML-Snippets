@@ -10,9 +10,9 @@ jumps the caret/s to the next predefined spot. It's a little hard to explain,
 but any snippet that has a $1/$2/$3/etc. uses this technique.
 
 Feel free to play with, alter, expand, or ruin these snippets as you please. I
-only ask that if you come up with an incredibly handy snippet, or simply one that
-I have missed, that you let me know (via email, Twitter or GitHub) so that I
-can improve these for everybody. Thanks!
+only ask that if you come up with an incredibly handy snippet, or simply one
+that I have missed, that you let me know (via email, Twitter or GitHub) so that
+I can improve these for everybody. Thanks!
 
 ---
 
@@ -45,6 +45,15 @@ __html__
 __lin__
 
     <link rel="stylesheet" href="$1">
+
+__lorem__
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 __nav__
 

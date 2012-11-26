@@ -42,6 +42,11 @@ __html__
         </body>
     </html>
 
+__jquery__
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+
 __lin__
 
     <link rel="stylesheet" href="$1">
@@ -108,9 +113,3 @@ __ul__
         <li>$3</li>
         <li>$4</li>
     </ul>
-
-
-__jquery__
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.8.3.min.js"><\/script>')</script>

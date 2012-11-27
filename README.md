@@ -24,6 +24,13 @@ __com__
 
     <!-- $1 -->
 
+__fig__
+
+    <figure>
+        <img src="$1" alt="$2">
+        <figcaption>$3</figcaption>
+    </figure>
+
 __html__
 
     <!doctype html>
@@ -41,6 +48,10 @@ __html__
             <script src="js/main.js"></script>
         </body>
     </html>
+
+__img__
+
+    <img src="$1" alt="$2">
 
 __jquery__
 

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<figure>
+    <img src="$1" alt="$2">
+    <figcaption>$3</figcaption>
+</figure>$4]]></content>
+	<tabTrigger>fig</tabTrigger>
+    <description>HTML - Figure</description>
+	<scope>text.html</scope>
+</snippet>

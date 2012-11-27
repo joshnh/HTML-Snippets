@@ -31,6 +31,20 @@ __fig__
         <figcaption>$3</figcaption>
     </figure>
 
+__ga__
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '${1:UA-XXXXX-X}']);
+        _gaq.push(['_trackPageview']);
+    
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
 __html__
 
     <!doctype html>
@@ -115,18 +129,6 @@ __ol__
 __scr__
 
     <script src="$1"></script>
-
-__ga__
-
-    <script>
-        var _gaq = [['_setAccount', '$1'], ['_trackPageview']];
-        (function(d, t) {
-            var g = d.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-            g.src = '//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g, s);
-        }(document, 'script'));
-    </script>
 
 __ul__
 

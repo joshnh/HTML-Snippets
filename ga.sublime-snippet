@@ -7,7 +7,7 @@
         g.src = '//www.google-analytics.com/ga.js';
         s.parentNode.insertBefore(g, s);
     }(document, 'script'));
-</script>]]></content>
+</script>$2]]></content>
     <tabTrigger>ga</tabTrigger>
     <description>HTML - Google Analytics Script</description>
     <scope>text.html</scope>

@@ -32,7 +32,7 @@ __cond__
 
 ```html
 <!--[if ${1:lt IE9}]>
-    ${2:<link rel="stylesheet" href="${3:css/ie.css}">}
+    <link rel="stylesheet" href="${2:css/ie.css">}
 <![endif]-->
 ```
 

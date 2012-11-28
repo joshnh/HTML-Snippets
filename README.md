@@ -62,7 +62,7 @@ __ga__
 
 ```html
 <script>
-    var _gaq = [['_setAccount', '$1'], ['_trackPageview']];
+    var _gaq = [['_setAccount', '${1:UA-XXXXX-X}'], ['_trackPageview']];
     (function(d, t) {
         var g = d.createElement(t),
             s = d.getElementsByTagName(t)[0];

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[<!-- $1 -->$2]]></content>
-	<tabTrigger>com</tabTrigger>
-    <description>HTML - Comment</description>
-	<scope>text.html</scope>
-</snippet>

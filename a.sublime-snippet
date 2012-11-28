@@ -1,6 +1,6 @@
 <snippet>
-	<content><![CDATA[<a href="$1">$2</a>$3]]></content>
+	<content><![CDATA[<a href="$1" title="$2">$3</a>$4]]></content>
 	<tabTrigger>a</tabTrigger>
-    <description>HTML - Anchor</description>
+	<description>HTML - Anchor</description>
 	<scope>text.html</scope>
 </snippet>

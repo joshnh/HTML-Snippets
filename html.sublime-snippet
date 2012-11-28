@@ -1,21 +1,20 @@
 <snippet>
-	<content><![CDATA[<!doctype html>
+    <content><![CDATA[<!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="description" content="$1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>$2</title>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel=author href="humans.txt">
+        <title>${2:Untitled}</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="humans.txt">
     </head>
     <body>
         $3
         <script src="js/main.js"></script>
     </body>
 </html>]]></content>
-	<tabTrigger>html</tabTrigger>
+    <tabTrigger>html</tabTrigger>
     <description>HTML - HTML foundation</description>
-	<scope>text.html</scope>
+    <scope>text.html</scope>
 </snippet>

@@ -171,6 +171,14 @@ __script__
 <script src="$1"></script>
 ```
 
+__shiv__
+
+```html
+<!--[if lt IE9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+```
+
 __style__
 
 ```html

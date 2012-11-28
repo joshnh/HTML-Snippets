@@ -19,7 +19,7 @@ I can improve these for everybody. Thanks!
 __a__
 
 ```html
-<a href="$1" title="$2">$3</a>
+<a href="$1">$2</a>
 ```
 
 __comm__

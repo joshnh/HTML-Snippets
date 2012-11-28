@@ -121,8 +121,7 @@ __meta__
 
 ```html
 <meta charset="utf-8">
-<meta name="author" content="$1">
-<meta name="description" content="$2">
+<meta name="description" content="$1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 

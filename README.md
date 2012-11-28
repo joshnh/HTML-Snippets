@@ -18,23 +18,21 @@ I can improve these for everybody. Thanks!
 
 __a__
 
-    <a href="$1">$2</a>
+    <a href="$1" title="$2">$3</a>
 
 __com__
 
     <!-- $1 -->
-    
-__ga__
 
-    <script>
-        var _gaq = [['_setAccount', '$1'], ['_trackPageview']];
-        (function(d, t) {
-            var g = d.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-            g.src = '//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g, s);
-        }(document, 'script'));
-    </script>
+__cond__
+
+    <!--[if ${1:lt IE9}]>
+        ${2:<link rel="stylesheet" href="${3:css/ie.css}">}
+    <![endif]-->
+
+__dummy__
+
+    One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me? " he thought.
 
 __fig__
 
@@ -45,16 +43,14 @@ __fig__
 
 __ga__
 
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', '${1:UA-XXXXX-X}']);
-        _gaq.push(['_trackPageview']);
-    
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+    <script>
+        var _gaq = [['_setAccount', '$1'], ['_trackPageview']];
+        (function(d, t) {
+            var g = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            g.src = '//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g, s);
+        }(document, 'script'));
     </script>
 
 __html__
@@ -96,6 +92,13 @@ __lorem__
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+__meta__
+
+    <meta charset="utf-8">
+    <meta name="author" content="$1">
+    <meta name="description" content="$2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 __nav__
 

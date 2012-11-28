@@ -1,13 +1,13 @@
 <snippet>
-	<content><![CDATA[<nav class="main-nav">
+	<content><![CDATA[<nav class="main-nav clearfix">
     <ul>
-        <li><a href="#">$1</a></li><!--
-     --><li><a href="#">$2</a></li><!--
-     --><li><a href="#">$3</a></li><!--
-     --><li><a href="#">$4</a></li>
+        <li><a href="#">$1</a></li>
+        <li><a href="#">$2</a></li>
+        <li><a href="#">$3</a></li>
+        <li><a href="#">$4</a></li>
     </ul>
 </nav>$5]]></content>
-	<tabTrigger>nav</tabTrigger>
-    <description>HTML - Navigation object (inline-block)</description>
+	<tabTrigger>nav2</tabTrigger>
+    <description>HTML - Navigation object</description>
 	<scope>text.html</scope>
 </snippet>

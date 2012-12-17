@@ -32,7 +32,7 @@ __cond__
 
 ```html
 <!--[if ${1:lt IE9}]>
-    <link rel="stylesheet" href="${2:css/ie.css">}
+    <link rel=stylesheet href="${2:css/ie.css">}
 <![endif]-->
 ```
 
@@ -77,12 +77,12 @@ __html__
 <!doctype html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="description" content="$1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset=utf-8>
+        <meta name=description content="$1">
+        <meta name=viewport content="width=device-width, initial-scale=1">
         <title>${2:Untitled}</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="author" href="humans.txt">
+        <link rel=stylesheet href="css/style.css">
+        <link rel=author href="humans.txt">
     </head>
     <body>
         $3
@@ -118,9 +118,9 @@ culpa qui officia deserunt mollit anim id est laborum.
 __meta__
 
 ```html
-<meta charset="utf-8">
-<meta name="description" content="$1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset=utf-8>
+<meta name=description content="$1">
+<meta name=viewport content="width=device-width, initial-scale=1">
 ```
 
 __nav__
@@ -179,7 +179,7 @@ __shiv__
 __style__
 
 ```html
-<link rel="stylesheet" href="$1">
+<link rel=stylesheet href="$1">
 ```
 
 __ul__

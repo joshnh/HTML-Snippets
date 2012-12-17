@@ -2,12 +2,12 @@
     <content><![CDATA[<!doctype html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="description" content="$1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset=utf-8>
+        <meta name=description content="$1">
+        <meta name=viewport content="width=device-width, initial-scale=1">
         <title>${2:Untitled}</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="author" href="humans.txt">
+        <link rel=stylesheet href="css/style.css">
+        <link rel=author href=/humans.txt>
     </head>
     <body>
         $3

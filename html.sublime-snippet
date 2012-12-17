@@ -7,7 +7,7 @@
         <meta name=viewport content="width=device-width, initial-scale=1">
         <title>${2:Untitled}</title>
         <link rel=stylesheet href="css/style.css">
-        <link rel=author href=/humans.txt>
+        <link rel=author href="humans.txt">
     </head>
     <body>
         $3

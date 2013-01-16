@@ -36,6 +36,26 @@ __cond__
 <![endif]-->
 ```
 
+__doctype__
+
+```html
+<!doctype html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <meta name=description content="$1">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <title>${2:Untitled}</title>
+        <link rel=stylesheet href="css/style.css">
+        <link rel=author href="humans.txt">
+    </head>
+    <body>
+        $3
+        <script src="js/main.js"></script>
+    </body>
+</html>
+```
+
 __dummy__
 
 ```html
@@ -69,26 +89,6 @@ __ga__
         s.parentNode.insertBefore(g, s);
     }(document, 'script'));
 </script>
-```
-
-__html__
-
-```html
-<!doctype html>
-<html>
-    <head>
-        <meta charset=utf-8>
-        <meta name=description content="$1">
-        <meta name=viewport content="width=device-width, initial-scale=1">
-        <title>${2:Untitled}</title>
-        <link rel=stylesheet href="css/style.css">
-        <link rel=author href="humans.txt">
-    </head>
-    <body>
-        $3
-        <script src="js/main.js"></script>
-    </body>
-</html>
 ```
 
 __img__

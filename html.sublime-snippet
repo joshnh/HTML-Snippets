@@ -7,10 +7,10 @@
         <meta name=viewport content="width=device-width, initial-scale=1">
         <title>${2:Untitled}</title>
         <link rel=stylesheet href="css/style.css">
-        <link rel=author href="humans.txt">
+        <link rel="author" href="$3">
     </head>
     <body>
-        $3
+        $4
         <script src="js/main.js"></script>
     </body>
 </html>]]></content>

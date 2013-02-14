@@ -14,7 +14,7 @@
         <script src="js/main.js"></script>
     </body>
 </html>]]></content>
-    <tabTrigger>doctype</tabTrigger>
+    <tabTrigger>doc</tabTrigger>
     <description>HTML - HTML foundation</description>
     <scope>text.html</scope>
 </snippet>

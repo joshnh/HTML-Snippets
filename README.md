@@ -36,7 +36,7 @@ __cond__
 <![endif]-->
 ```
 
-__doctype__
+__doc__
 
 ```html
 <!doctype html>

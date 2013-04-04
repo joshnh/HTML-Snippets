@@ -14,6 +14,10 @@ only ask that if you come up with an incredibly handy snippet, or simply one
 that I have missed, that you let me know (via email, Twitter or GitHub) so that
 I can improve these for everybody. Thanks!
 
+__IMPORTANT: If you are also using Emmet, add the following to Emmet's user settings file:__
+
+`"disabled_single_snippets": "fig meta nav ol script style ul"`
+
 ---
 
 __a__

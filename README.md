@@ -35,7 +35,7 @@ __comm__
 __cond__
 
 ```html
-<!--[if ${1:lt IE9}]>
+<!--[if ${1:lt IE 9}]>
     <link rel=stylesheet href="${2:css/ie.css">}
 <![endif]-->
 ```

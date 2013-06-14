@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[<!--[if ${1:lt IE9}]>
+    <content><![CDATA[<!--[if ${1:lt IE 9}]>
     <link rel=stylesheet href="${2:css/ie.css">}
 <![endif]-->$3]]></content>
     <tabTrigger>cond</tabTrigger>

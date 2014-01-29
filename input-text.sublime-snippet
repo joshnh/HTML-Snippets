@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<input type="text">$1]]></content>
+	<tabTrigger>inp:text</tabTrigger>
+	<description>HTML - Input:text</description>
+	<scope>text.html</scope>
+</snippet>

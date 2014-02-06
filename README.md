@@ -210,3 +210,21 @@ __ul__
     <li>$4</li>
 </ul>
 ```
+
+__inp:text__
+
+```html
+<input type="text">
+```
+
+__inp:submit__
+
+```html
+<input type="submit" value="">
+```
+
+__inp:pass__
+
+```html
+<input type="password">
+```

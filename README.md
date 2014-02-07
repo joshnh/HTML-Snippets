@@ -210,3 +210,45 @@ __ul__
     <li>$4</li>
 </ul>
 ```
+
+__inp:text__
+
+```html
+<input type="text">
+```
+
+__inp:tel__
+
+```html
+<input type="tel">
+```
+
+__inp:radio__
+
+```html
+<input type="radio">
+```
+
+__inp:check__
+
+```html
+<input type="checkbox">
+```
+
+__inp:email__
+
+```html
+<input type="email">
+```
+
+__inp:pass__
+
+```html
+<input type="password">
+```
+
+__inp:submit__
+
+```html
+<input type="submit">
+```

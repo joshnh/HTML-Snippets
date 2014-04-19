@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>${2:Untitled}</title>
+    <meta name="description" content="$3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="${4:css/main.css}">
+</head>]]></content>
+    <tabTrigger>head</tabTrigger>
+    <description>HTML - HEAD section</description>
+    <scope>text.html</scope>
+</snippet>

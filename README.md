@@ -16,7 +16,7 @@ I can improve these for everybody. Thanks!
 
 __IMPORTANT: If you are also using Emmet, add the following to Emmet's user settings file:__
 
-`"disabled_single_snippets": "html fig meta nav ol script style ul"`
+`"disabled_single_snippets": "html head fig meta nav ol script style ul"`
 
 ---
 
@@ -38,26 +38,6 @@ __cond__
 <!--[if ${1:lt IE 9}]>
     <link rel="stylesheet" href="${2:css/ie.css">}
 <![endif]-->
-```
-
-__html__
-
-```html
-<!DOCTYPE html>
-<html lang="${1:en}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>${2:Untitled}</title>
-        <meta name="description" content="$3">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="${4:css/main.css}">
-    </head>
-    <body>
-        $6
-        <script src="${5:js/main.js}"></script>
-    </body>
-</html>
 ```
 
 __dummy__
@@ -108,6 +88,39 @@ __ga2__
 </script>
 ```
 
+__head__
+
+```html
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>${2:Untitled}</title>
+    <meta name="description" content="$3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="${4:css/main.css}">
+</head>
+```
+
+__html__
+
+```html
+<!DOCTYPE html>
+<html lang="${1:en}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>${2:Untitled}</title>
+        <meta name="description" content="$3">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="${4:css/main.css}">
+    </head>
+    <body>
+        $6
+        <script src="${5:js/main.js}"></script>
+    </body>
+</html>
+```
+
 __img__
 
 ```html
@@ -130,14 +143,6 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
 culpa qui officia deserunt mollit anim id est laborum.
-```
-
-__meta__
-
-```html
-<meta charset=utf-8>
-<meta name=description content="$1">
-<meta name=viewport content="width=device-width, initial-scale=1">
 ```
 
 __nav__

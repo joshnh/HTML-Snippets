@@ -76,6 +76,19 @@ ga2
 
 --
 
+head
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>${2:Untitled}</title>
+    <meta name="description" content="$3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="${4:css/main.css}">
+</head>
+
+--
+
 html
 
 <!DOCTYPE html>
@@ -117,14 +130,6 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
 culpa qui officia deserunt mollit anim id est laborum.
-
---
-
-meta
-
-<meta charset=utf-8>
-<meta name=description content="$1">
-<meta name=viewport content="width=device-width, initial-scale=1">
 
 --
 

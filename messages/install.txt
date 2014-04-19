@@ -173,7 +173,7 @@ shiv
 
 style
 
-<link rel=stylesheet href="$1">
+<link rel="stylesheet" href="$1">
 
 --
 

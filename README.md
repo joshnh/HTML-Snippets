@@ -186,7 +186,7 @@ __shiv__
 __style__
 
 ```html
-<link rel=stylesheet href="$1">
+<link rel="stylesheet" href="$1">
 ```
 
 __ul__

@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<link rel=stylesheet href="$1">$2]]></content>
+	<content><![CDATA[<link rel="stylesheet" href="$1">]]></content>
 	<tabTrigger>style</tabTrigger>
     <description>HTML - Stylesheet link</description>
 	<scope>text.html</scope>

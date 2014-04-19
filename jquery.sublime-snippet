@@ -1,6 +1,6 @@
 <snippet>
-	<content><![CDATA[<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>]]></content>
+	<content><![CDATA[<script src="//ajax.googleapis.com/ajax/libs/jquery/${1:1.10.2}/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-${1:1.10.2}.min.js"><\/script>')</script>]]></content>
 	<tabTrigger>jquery</tabTrigger>
 	<description>HTML - Include jQuery</description>
 	<scope>text.html</scope>

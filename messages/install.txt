@@ -135,21 +135,6 @@ culpa qui officia deserunt mollit anim id est laborum.
 
 nav
 
-(For when using inline-block.)
-
-<nav class="$1">
-    <ul>
-        <li><a href="#">$2</a></li>
-        <li><a href="#">$3</a></li>
-        <li><a href="#">$4</a></li>
-        <li><a href="#">$5</a></li>
-    </ul>
-</nav>
-
---
-
-nav2
-
 <nav class="$1">
     <ul>
         <li><a href="#">$2</a></li>

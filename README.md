@@ -147,21 +147,6 @@ culpa qui officia deserunt mollit anim id est laborum.
 
 __nav__
 
-For when using `inline-block`.
-
-```html
-<nav class="$1">
-    <ul>
-        <li><a href="#">$2</a></li>
-        <li><a href="#">$3</a></li>
-        <li><a href="#">$4</a></li>
-        <li><a href="#">$5</a></li>
-    </ul>
-</nav>
-```
-
-__nav2__
-
 ```html
 <nav class="$1">
     <ul>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<!DOCTYPE html>]]></content>
+    <tabTrigger>doctype</tabTrigger>
+    <description>HTML - Doctype</description>
+    <scope>text.html</scope>
+</snippet>

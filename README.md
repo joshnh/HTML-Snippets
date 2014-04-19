@@ -40,6 +40,12 @@ __cond__
 <![endif]-->
 ```
 
+__doctype__
+
+```html
+<!DOCTYPE html>
+```
+
 __dummy__
 
 ```html

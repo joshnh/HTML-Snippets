@@ -28,6 +28,12 @@ cond
 
 --
 
+doctype
+
+<!DOCTYPE html>
+
+--
+
 dummy
 
 One morning, when Gregor Samsa woke from troubled dreams, he found himself

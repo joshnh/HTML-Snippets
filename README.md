@@ -16,7 +16,7 @@ I can improve these for everybody. Thanks!
 
 __IMPORTANT: If you are also using Emmet, add the following to Emmet's user settings file:__
 
-`"disabled_single_snippets": "fig meta nav ol script style ul"`
+`"disabled_single_snippets": "html fig meta nav ol script style ul"`
 
 ---
 
@@ -36,26 +36,26 @@ __cond__
 
 ```html
 <!--[if ${1:lt IE 9}]>
-    <link rel=stylesheet href="${2:css/ie.css">}
+    <link rel="stylesheet" href="${2:css/ie.css">}
 <![endif]-->
 ```
 
-__doctype__
+__html__
 
 ```html
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="${1:en}">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="$1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>${2:Untitled}</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="author" href="humans.txt">
+        <meta name="description" content="$3">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="${4:css/main.css}">
     </head>
     <body>
-        $3
-        <script src="js/main.js"></script>
+        $6
+        <script src="${5:js/main.js}"></script>
     </body>
 </html>
 ```
@@ -99,13 +99,12 @@ __ga2__
 
 ```html
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', '${1:UA-XXXX-X}');
-    ga('send', 'pageview');
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','${1:UA-XXXX-X}');ga('send','pageview');
 </script>
 ```
 
@@ -118,8 +117,8 @@ __img__
 __jquery__
 
 ```html
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/${1:1.10.2}/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-${1:1.10.2}.min.js"><\/script>')</script>
 ```
 
 __lorem__

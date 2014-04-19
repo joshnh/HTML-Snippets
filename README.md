@@ -16,7 +16,7 @@ I can improve these for everybody. Thanks!
 
 __IMPORTANT: If you are also using Emmet, add the following to Emmet's user settings file:__
 
-`"disabled_single_snippets": "html head fig meta nav ol script style ul"`
+`"disabled_single_snippets": "html head fig nav ol script style ul"`
 
 ---
 

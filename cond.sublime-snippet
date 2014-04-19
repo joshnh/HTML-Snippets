@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[<!--[if ${1:lt IE 9}]>
-    <link rel=stylesheet href="${2:css/ie.css">}
+    <link rel="stylesheet" href="${2:css/ie.css">}
 <![endif]-->$3]]></content>
     <tabTrigger>cond</tabTrigger>
     <description>HTML - Conditional comment</description>

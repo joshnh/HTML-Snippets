@@ -1,14 +1,14 @@
 <snippet>
-    <content><![CDATA[<script>
-    var _gaq = [['_setAccount', '${1:UA-XXXXX-X}'], ['_trackPageview']];
-    (function(d, t) {
-        var g = d.createElement(t),
-            s = d.getElementsByTagName(t)[0];
-        g.src = '//www.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g, s);
-    }(document, 'script'));
+	<content><![CDATA[<script>
+	var _gaq = [['_setAccount', '${1:UA-XXXXX-X}'], ['_trackPageview']];
+	(function(d, t) {
+		var g = d.createElement(t),
+			s = d.getElementsByTagName(t)[0];
+		g.src = '//www.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g, s);
+	}(document, 'script'));
 </script>$2]]></content>
-    <tabTrigger>ga</tabTrigger>
-    <description>HTML - Google Analytics</description>
-    <scope>text.html</scope>
+	<tabTrigger>ga</tabTrigger>
+	<description>HTML - Google Analytics</description>
+	<scope>text.html</scope>
 </snippet>

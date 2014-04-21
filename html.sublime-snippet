@@ -1,20 +1,20 @@
 <snippet>
-    <content><![CDATA[<!DOCTYPE html>
+	<content><![CDATA[<!DOCTYPE html>
 <html lang="${1:en}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>${2:Untitled}</title>
-        <meta name="description" content="$3">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="${4:css/main.css}">
-    </head>
-    <body>
-        $6
-        <script src="${5:js/main.js}"></script>
-    </body>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>${2:Untitled}</title>
+		<meta name="description" content="$3">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="${4:css/main.css}">
+	</head>
+	<body>
+		$6
+		<script src="${5:js/main.js}"></script>
+	</body>
 </html>]]></content>
-    <tabTrigger>html</tabTrigger>
-    <description>HTML - HTML foundation</description>
-    <scope>text.html</scope>
+	<tabTrigger>html</tabTrigger>
+	<description>HTML - HTML foundation</description>
+	<scope>text.html</scope>
 </snippet>

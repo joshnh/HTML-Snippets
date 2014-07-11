@@ -1,4 +1,4 @@
-# Sublime Text 2 HTML Snippets
+# Sublime Text HTML Snippets
 
 _A work in progress._
 

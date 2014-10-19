@@ -252,3 +252,7 @@ __inp:submit__
 ```html
 <input type="submit">
 ```
+
+```css
+<style type="text/css">$1</style>
+```

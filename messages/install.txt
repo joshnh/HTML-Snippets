@@ -23,28 +23,14 @@ comm
 cond
 
 <!--[if ${1:lt IE9}]>
-    <link rel=stylesheet href="${2:css/ie.css">}
+    <link rel="stylesheet" href="${2:css/ie.css">}
 <![endif]-->
 
 --
 
 doctype
 
-<!doctype html>
-<html>
-    <head>
-        <meta charset=utf-8>
-        <meta name=description content="$1">
-        <meta name=viewport content="width=device-width, initial-scale=1">
-        <title>${2:Untitled}</title>
-        <link rel=stylesheet href="css/style.css">
-        <link rel=author href="humans.txt">
-    </head>
-    <body>
-        $3
-        <script src="js/main.js"></script>
-    </body>
-</html>
+<!DOCTYPE html>
 
 --
 
@@ -72,14 +58,46 @@ fig
 ga
 
 <script>
-    var _gaq = [['_setAccount', '${1:UA-XXXXX-X}'], ['_trackPageview']];
-    (function(d, t) {
-        var g = d.createElement(t),
-            s = d.getElementsByTagName(t)[0];
-        g.src = '//www.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g, s);
-    }(document, 'script'));
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','${1:UA-XXXX-X}');ga('send','pageview');
 </script>
+
+--
+
+head
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>${2:Untitled}</title>
+    <meta name="description" content="$3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="${4:css/main.css}">
+</head>
+
+--
+
+html
+
+<!DOCTYPE html>
+<html lang="${1:en}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>${2:Untitled}</title>
+        <meta name="description" content="$3">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="${4:css/main.css}">
+    </head>
+    <body>
+        $6
+        <script src="${5:js/main.js}"></script>
+    </body>
+</html>
 
 --
 
@@ -91,8 +109,8 @@ img
 
 jquery
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/${1:1.10.2}/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-${1:1.10.2}.min.js"><\/script>')</script>
 
 --
 
@@ -107,30 +125,7 @@ culpa qui officia deserunt mollit anim id est laborum.
 
 --
 
-meta
-
-<meta charset=utf-8>
-<meta name=description content="$1">
-<meta name=viewport content="width=device-width, initial-scale=1">
-
---
-
 nav
-
-(For when using inline-block.)
-
-<nav class="$1">
-    <ul>
-        <li><a href="#">$2</a></li><!--
-     --><li><a href="#">$3</a></li><!--
-     --><li><a href="#">$4</a></li><!--
-     --><li><a href="#">$5</a></li>
-    </ul>
-</nav>
-
---
-
-nav2
 
 <nav class="$1">
     <ul>
@@ -170,7 +165,7 @@ shiv
 
 style
 
-<link rel=stylesheet href="$1">
+<link rel="stylesheet" href="$1">
 
 --
 

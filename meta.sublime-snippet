@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[<meta charset=utf-8>
-<meta name=description content="$1">
-<meta name=viewport content="width=device-width, initial-scale=1">$2]]></content>
-    <tabTrigger>meta</tabTrigger>
-    <description>HTML - Meta tags</description>
-    <scope>text.html</scope>
-</snippet>

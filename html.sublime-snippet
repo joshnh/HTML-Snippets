@@ -1,17 +1,16 @@
 <snippet>
 	<content><![CDATA[<!DOCTYPE html>
-<html lang="${1:en}">
+<html>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>${2:Untitled}</title>
-		<meta name="description" content="$3">
+		<title>${1:Untitled}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="${4:css/main.css}">
+		<link rel="stylesheet" href="${3:css/main.css}">
 	</head>
 	<body>
-		$6
-		<script src="${5:js/main.js}"></script>
+		$5
+		<script src="${4:js/main.js}"></script>
 	</body>
 </html>]]></content>
 	<tabTrigger>html</tabTrigger>

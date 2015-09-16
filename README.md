@@ -256,3 +256,15 @@ __inp:submit__
 ```css
 <style type="text/css">$1</style>
 ```
+
+## Contributing: Submitting a Pull Request
+1. [Fork the repository.][fork]
+1. [Create a topic branch.][branch]
+1. Make whatever changes/additions you want to contribute.
+1. Commit and push your changes.
+1. [Submit a pull request.][pr]
+
+[fork]: https://help.github.com/articles/fork-a-repo/
+[branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/
+[pr]: https://help.github.com/articles/using-pull-requests/
+
